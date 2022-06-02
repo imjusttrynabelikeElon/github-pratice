@@ -11,7 +11,7 @@ import SwiftUI
 
 
 // karon: hi
-struct ContentView: View {
+struct kbellview: View {
     var body: some View {
         Text("This is a test")
             .padding()
@@ -21,7 +21,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        kbellview()
     }
 }
 
