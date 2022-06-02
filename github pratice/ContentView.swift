@@ -13,8 +13,14 @@ import SwiftUI
 // karon: hi
 struct kbellview: View {
     var body: some View {
-        Text("This is a test")
-            .padding()
+        
+        ZStack {
+            Color.blue.ignoresSafeArea(.all)
+            Text("This is a test")
+                .padding()
+        }
+        
+       
     }
     
 }
