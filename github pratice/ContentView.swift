@@ -15,7 +15,7 @@ struct kbellview: View {
     var body: some View {
         
         ZStack {
-            Color.red.ignoresSafeArea(.all)
+            Color.blue.ignoresSafeArea(.all)
             Text("This is a test")
                 .padding()
         }
